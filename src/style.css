@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+:root {
+  --dc-primary: #0282f9;
+  --dc-secondary: #1171d7;
+  --dc-white: #ffffff;
+  --dc-dark: #1c1c1c;
+  --dc-gray: #7e7d7c;
+  --dc-footer-gray: #303030;
+
+}
+
+.container {
+  width: 70%;
+  max-width: 1176px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+  text-align: center;
+}
+
+[class^="col-"] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.col-2 {
+  width: calc(100%/12*2);
+}
+
+.col-6 {
+  width: calc((100%/12)*6);
+}
